@@ -115,7 +115,7 @@ void display() {
 int main()
 {
 
-	input;
+	input();
 	//sort the array using quick sort
 	q_short(0, n - 1);
 	display();
