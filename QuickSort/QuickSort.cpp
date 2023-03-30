@@ -29,3 +29,14 @@ void inpur() {
 		cin >> arr[i];
 	}
 }
+// Swaps the elemnt at index x with the element at index y
+void swap(int x, int y)
+{
+	int temp;
+
+	temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+}
+
+
